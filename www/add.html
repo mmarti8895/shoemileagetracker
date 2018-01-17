@@ -1,0 +1,92 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding">Add Workout</div>
+        <div class="right">
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="add" class="page">
+        <div class="page-content">
+            <div class="content-block">
+                <form id="workout-form" class="ajax-submit">
+                  <div class="list-block">
+                    <ul>
+                      <!-- Title -->
+                      <li>
+                        <div class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title label">Title</div>
+                            <div class="item-input">
+                              <input type="text" id="title" placeholder="Workout Title">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- Date -->
+                      <li>
+                        <div class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title label">Date</div>
+                            <div class="item-input">
+                              <input type="date" id="date" placeholder="Date">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- Type -->
+                      <li>
+                        <!-- Additional "smart-select" class -->
+                        <a href="#" class="item-link smart-select">
+                          <!-- select -->
+                          <select id="type" name="type">
+                            <option value="Jogging" selected>Jogging</option>
+                             <option value="Walking">Walking</option>
+                             <option value="Aerobics">Aerobics</option>
+                             <option value="Machine Weights">Machine Weights</option>
+                             <option value="Free Weights">Free Weights</option>
+                          </select>
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <!-- Select label -->
+                              <div class="item-title">Workout Type</div>
+                              <!-- Selected value, not required -->
+                              <div class="item-after">Jogging</div>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- Length -->
+                      <li>
+                        <div class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title label">Miles</div>
+                            <div class="item-input">
+                              <input type="number" id="length" placeholder="Length">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <div class="col-50">
+                      <a href="index.html" class="button button-big">
+                        Cancel
+                      </a>
+                    </div>
+                    <div class="col-50">
+                      <input type="submit" value="Submit" class="button button-big">
+                    </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
